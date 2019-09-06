@@ -19,7 +19,7 @@ describe("App tests", () => {
   it("snapshot of Title", () => {
     const { container } = render(<Title nome="nice" />);
 
-    expect(container.firstChild).toLine();
+    expect(container.firstChild).toMatchSnapshot();
   });
 
   it("should render Title without name === Define name", async () => {
