@@ -18,10 +18,10 @@ export default function ButtonAppBar() {
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" className={classes.title}>
-            News
+          <Typography  data-testid="title-header" variant="h6" className={classes.title}>
+            Home
           </Typography>
-          <Button color="inherit">Login</Button>
+          <Button color="inherit" data-testid="button-search">Search list</Button>
         </Toolbar>
       </AppBar>
     </div>
