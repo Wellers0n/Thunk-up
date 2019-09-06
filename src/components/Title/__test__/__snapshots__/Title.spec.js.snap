@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App tests snapshot of Title 1`] = `
+<h2
+  class="MuiTypography-root makeStyles-root-63 MuiTypography-h6 MuiTypography-gutterBottom MuiTypography-alignCenter"
+>
+  <div
+    data-testid="nome"
+  >
+    nice's Challenge
+  </div>
+</h2>
+`;

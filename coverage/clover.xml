@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1567780855975" clover="3.2.0">
+  <project timestamp="1567780855975" name="All files">
+    <metrics statements="25" coveredstatements="5" conditionals="3" coveredconditionals="0" methods="10" coveredmethods="2" elements="38" coveredelements="7" complexity="0" loc="25" ncloc="25" packages="6" files="9" classes="9"/>
+    <package name="src">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="app.jsx" path="/home/coffee/Documents/up-skills/src/app.jsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.actions">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="actionTypes.js" path="/home/coffee/Documents/up-skills/src/actions/actionTypes.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+      </file>
+      <file name="index.js" path="/home/coffee/Documents/up-skills/src/actions/index.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Title">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="Style.js" path="/home/coffee/Documents/up-skills/src/components/Title/Style.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="4" type="stmt"/>
+      </file>
+      <file name="Title.jsx" path="/home/coffee/Documents/up-skills/src/components/Title/Title.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.screens">
+      <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+      <file name="Home.jsx" path="/home/coffee/Documents/up-skills/src/components/screens/Home.jsx">
+        <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.reducers">
+      <metrics statements="6" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="clickReducer.js" path="/home/coffee/Documents/up-skills/src/reducers/clickReducer.js">
+        <metrics statements="5" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="7" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+      </file>
+      <file name="index.js" path="/home/coffee/Documents/up-skills/src/reducers/index.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.store">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.js" path="/home/coffee/Documents/up-skills/src/store/index.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

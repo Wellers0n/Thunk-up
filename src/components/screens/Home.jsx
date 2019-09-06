@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
-import { clickButton } from "./../../actions";
+import { clickButton } from "../../actions";
+import Title from '../Title/Title'
 
 const Home = props => {
   const { newValue, clickButton } = props;
@@ -16,6 +17,7 @@ const Home = props => {
       <input type="text" value={inputValue} onChange={inputChange} />
       <button onClick={() => clickButton(inputValue)}>Click me!</button>
       <h1>{newValue}</h1>
+      <Title nome="Wellerson"/>
     </div>
   );
 };

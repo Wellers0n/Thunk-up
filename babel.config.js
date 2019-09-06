@@ -1,13 +1,19 @@
 module.exports = {
-    "presets": [
-        "@babel/env",
-        "@babel/preset-react",
-       
+  presets: [
+    [
+      "@babel/preset-env",
+      {
+        targets: {
+          node: "current"
+        }
+      }
     ],
-    "plugins": [
-        "@babel/proposal-class-properties",
-        "@babel/proposal-object-rest-spread",
-        "@babel/plugin-transform-runtime",
-        "react-hot-loader/babel",
-    ]
-}
+    "@babel/preset-react"
+  ],
+  plugins: [
+    "@babel/proposal-class-properties",
+    "@babel/proposal-object-rest-spread",
+    "@babel/plugin-transform-runtime",
+    "react-hot-loader/babel"
+  ]
+};
