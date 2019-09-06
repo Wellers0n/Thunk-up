@@ -1,6 +1,6 @@
-import { clickReducer } from './clickReducer';
+import { FetchList } from './FetchList';
 import { combineReducers } from 'redux';
 
 export const Reducers = combineReducers({
-  clickState: clickReducer,
+  FetchList: FetchList,
 });

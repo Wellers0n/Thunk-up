@@ -2,7 +2,7 @@ import React from "react";
 import { render, waitForElement, fireEvent } from "@testing-library/react";
 import Title from "../Title";
 
-describe("App tests", () => {
+describe("App tests Title", () => {
   it("should render Title with name Wellerson", async () => {
     const { getByTestId, getByText } = render(<Title nome="Wellerson" />);
     const nome = await waitForElement(() => getByTestId("nome"));
@@ -19,7 +19,7 @@ describe("App tests", () => {
   it("snapshot of Title", () => {
     const { container } = render(<Title nome="nice" />);
 
-    expect(container.firstChild).toLine();
+    expect(container.firstChild).toMatchSnapshot();
   });
 
   it("should render Title without name === Define name", async () => {
