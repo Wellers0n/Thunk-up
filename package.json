@@ -18,7 +18,8 @@
     "dotenv-webpack": "^1.7.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-hot-loader": "^4.12.12"
+    "react-hot-loader": "^4.12.12",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
